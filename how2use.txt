@@ -1,0 +1,8 @@
+#基本的な使い方
+$ cd ~/slack_anonymous_bot/botkit
+$ node slack_bot.js 
+
+#端末を落としても起動し続ける方法
+$ cd ~/slack_anonymous_bot/botkit
+$ forever start slack_bot.js
+
